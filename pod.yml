@@ -1,0 +1,14 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: Sample-pod
+  labels:
+    zone: prod
+    version: v2
+spec:
+  containers:
+  - name: sample-contr
+    image: devopstrainer/deploy:v1
+    ports:
+    - containerport: 80
+
