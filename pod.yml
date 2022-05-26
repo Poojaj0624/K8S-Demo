@@ -10,5 +10,5 @@ spec:
   - name: sample-contr
     image: devopstrainer/deploy:v1
     ports:
-    - containerport: 80
+    - containerPort: 80
 
