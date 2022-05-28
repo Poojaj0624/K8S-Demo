@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: sample-ctr
-        image: devopstrainer/deploy:v1
+        image: devopstrainer/deploy:v2
         ports:
         - containerPort: 80
