@@ -9,6 +9,6 @@ spec:
     app: app-v2
   ports:
   - port: 80
-    nodePort: 80
+    nodePort: 32002
     protocol: TCP
   type: NodePort
