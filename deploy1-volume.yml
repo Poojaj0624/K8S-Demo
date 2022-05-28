@@ -27,6 +27,6 @@ spec:
               key: user
         - name: USER_PWD
           valueFrom:
-            configMapKeyRef:
+            secretKeyRef:
               name: user-pwd
               key: password
